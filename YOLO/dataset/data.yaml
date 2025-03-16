@@ -1,6 +1,6 @@
-train: C:\Users\phant\OneDrive\Desktop\YOLO\dataset\train
-val: C:\Users\phant\OneDrive\Desktop\YOLO\dataset\valid
-test: C:\Users\phant\OneDrive\Desktop\YOLO\dataset\test
+train: yourpath\YOLO\dataset\train
+val: yourpath\YOLO\dataset\valid
+test: yourpath\YOLO\dataset\test
 nc: 10
 names: 
 - door

@@ -2,10 +2,10 @@ from ultralytics import YOLO
 import cv2
 
 # Load trained model
-model = YOLO("C:/users/phant/runs/detect/train11/weights/best.pt")
+model = YOLO("Your_path/runs/detect/train11/weights/best.pt")
 
 # Load test image
-img_path = "C:/Users/phant/OneDrive/Desktop/YOLO/test.jpg" ## uses the image which should be downloaded
+img_path = "Your_path/YOLO/test.jpg" ## uses the image which should be downloaded
 results = model(img_path)
 
 # Show results
@@ -18,7 +18,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load the trained YOLO model (make sure to provide the correct path to your 'best.pt' model file)
-model = YOLO("C:/users/phant/runs/detect/train11/weights/best.pt")  # Change the path if necessary
+model = YOLO("Your_path/runs/detect/train11/weights/best.pt")  # Change the path if necessary
 
 # Initialize the webcam (0 is the default camera, change if you have multiple cameras)
 cap = cv2.VideoCapture(0)  # use your realtime webcam to capture

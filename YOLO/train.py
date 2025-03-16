@@ -6,7 +6,7 @@ def main():
 
     # Train the model
     model.train(
-        data="C:\\Users\\phant\\OneDrive\\Desktop\\YOLO\\dataset\\data.yaml",
+        data="Your_pathYOLO\dataset\data.yaml",
         epochs=5,  # Reduce for quick training
         imgsz=416,
         device="cuda"  # Change to "cpu" if GPU is unavailable

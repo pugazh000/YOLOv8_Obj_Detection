@@ -1,0 +1,16 @@
+ultralytics
+opencv-python
+torch
+matplotlib
+numpy
+
+#if u face any problem in cuda installation
+
+#Uninstall Existing PyTorch
+
+#pip uninstall torch torchvision torchaudio -y
+
+#Install PyTorch with CUDA (for RTX 3050 the gpu i used)
+
+#For CUDA 11.8 (Recommended)
+#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118

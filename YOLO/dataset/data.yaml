@@ -1,0 +1,15 @@
+train: C:\Users\phant\OneDrive\Desktop\YOLO\dataset\train
+val: C:\Users\phant\OneDrive\Desktop\YOLO\dataset\valid
+test: C:\Users\phant\OneDrive\Desktop\YOLO\dataset\test
+nc: 10
+names: 
+- door
+- cabinetDoor
+- refrigeratorDoor
+- window
+- chair
+- table
+- cabinet
+- couch
+- openedDoor
+- pole

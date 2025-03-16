@@ -14,6 +14,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 ######################  or  ##################################
+
 from ultralytics import YOLO
 import cv2
 

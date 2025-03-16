@@ -15,6 +15,7 @@ This project trains a YOLOv8 model on a custom indoor object detection dataset a
   │   │   ├── train/
   │   │   └── test/
   │   │   ├── valid/
+  │   ├── README.md
   │   ├── data.yaml
   ├── gputest.py 
   ├── train.py                # Training script for YOLOv8
